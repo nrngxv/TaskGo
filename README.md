@@ -13,9 +13,8 @@ Tasker is a simple task management app built on top of a monorepo boilerplate us
 - **JS runtime / package manager:** Bun (`bun.lock`).
 - **Deployment:** Nixpacks (`nixpacks.toml`).
 
-Your boilerplate section here, for example:
 
-> This project is built on top of the `<your-boilerplate-name>` monorepo starter, which provides preconfigured tooling (linting, formatting, testing, and build pipelines).  
+> This project is built on top of the `<Balloon>` monorepo starter, which provides preconfigured tooling (linting, formatting, testing, and build pipelines).  
 > Refer to the original boilerplate README for detailed conventions and scripts.
 
 ## Repository structure
@@ -43,11 +42,8 @@ Inside `apps/` and `packages/`, describe what you actually have, e.g.:
 - Node.js or Bun installed (depending on how your boilerplate runs scripts).
 - Go (for backend services).
 - (Optional) Docker if you plan to containerize.
-    
-Add your boilerplate’s typical setup here, for example:
 
 ## Development
-Again, adapt this to match your boilerplate’s scripts:
 
 ```bash
 # Run all apps in dev mode 
@@ -63,9 +59,6 @@ bun run dev:web
 bun run dev:api
 ```
 
-
-Link back to the boilerplate’s README for any shared commands:
-
 > All standard development scripts (lint, test, build, etc.) are inherited from the base boilerplate.  
 > See `../<boilerplate-README>` for the full list of commands and conventions.
 
@@ -79,9 +72,7 @@ API API_PORT=8080 DATABASE_URL=postgres://user:pass@localhost:5432/taskgo
 NEXT_PUBLIC_API_URL=http://localhost:8080
 ```
 
-Add a note that these follow the same pattern as in the boilerplate.
 ## Building and deployment
-Use your boilerplate’s build step plus Nixpacks:
 
 ```bash
 #Build all apps 
